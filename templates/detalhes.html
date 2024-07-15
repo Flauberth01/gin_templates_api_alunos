@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/detalhes.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Aluno</title>
+</head>
+
+<body>
+<div class="widget-wrap">
+    <h1>Detalhes do Aluno</h1>
+    <div class="details">
+        <p><strong>Nome:</strong> {{.aluno.Nome}}</p>
+        <p><strong>RG:</strong> {{.aluno.RG}}</p>
+        <p><strong>CPF:</strong> {{.aluno.CPF}}</p>
+    </div>
+    <a href="/index">Voltar para a lista</a>
+</div>
+</body>
+
+</html>

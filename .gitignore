@@ -1,0 +1,29 @@
+# PostgreSQL database files
+*.sql
+*.pgdump
+
+# Database connection config that may contain sensitive information
+database.yml
+settings.json
+
+# Binaries, executables, and libraries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# IDE files
+.idea/
+
+# Build artifacts
+bin/

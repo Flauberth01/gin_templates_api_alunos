@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos</title>
+</head>
+<body>
+<div class="widget-wrap">
+    <h1>Lista de Alunos</h1>
+    <ul id="the-list">
+        {{range .alunos}}
+            <li>
+                <a href="/detalhes/alunos/{{.ID}}">{{.Nome}}</a>
+            </li>
+        {{end}}
+    </ul>
+</div>
+</body>
+</html>
